@@ -51,7 +51,7 @@ file_format=app_config["ingest-dataset"]["source"]["file-format"]
 lookup_path=app_config["lookup-dataset"]["data-location"]
 print(lookup_path)
 pii_cols=app_config["lookup-dataset"]["pi-cols"]
-print(pii_cols)
+print(file_format)
 
 dataset_from_dag =sys.argv[1]
 #dataset_from_dag = 'actives.parquet'
